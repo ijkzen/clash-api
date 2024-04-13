@@ -101,6 +101,7 @@ func GetTraffic(handler func(traffic *Traffic) (stop bool)) error {
 }
 
 type Proxies struct {
+	Alive   bool       `json:"alive"`
 	All     []string   `json:"all"`
 	History []*History `json:"history"`
 	Name    string     `json:"name"`
