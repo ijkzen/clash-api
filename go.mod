@@ -1,4 +1,4 @@
-module github.com/obgnail/clash-api
+module github.com/ijkzen/clash-api
 
 go 1.21
 
